@@ -6,6 +6,7 @@ def consolidate_cart(cart)
   cart.each do |item|
     item.each do |name, attributes|
       if new_hash[name]
+        new_hash[name][count] += 1
 
     end
 
