@@ -20,7 +20,7 @@ end
 def apply_coupons(cart, coupons)
   # code here
   new_hash ={}
-  cart.each do |item, attributes|
+  cart.each do |key, attributes|
     coupons.each do |coupon|
 
     end
