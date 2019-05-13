@@ -6,7 +6,7 @@ def consolidate_cart(cart)
   cart.each do |items|
     items.each do |name, attributes|
       if new_hash[name]
-        new_hash[name][:count] += 1                 
+        new_hash[name][:count] += 1                 #adds a count of one to each item when there are no duplicates
       else
         new_hash[name] = attributes
         new_hash[name][:count] = 1
