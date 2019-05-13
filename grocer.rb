@@ -8,7 +8,7 @@ def consolidate_cart(cart)
       if new_hash[name]
         new_hash[name][count] += 1
       else
-        new_hash[name] = n
+        new_hash[name] = item
 
 
     end
