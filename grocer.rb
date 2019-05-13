@@ -19,6 +19,8 @@ end
 
 def apply_coupons(cart, coupons)
   # code here
+  new_hash ={}
+  hash[:item_name] = "coupon"
 end
 
 def apply_clearance(cart)
