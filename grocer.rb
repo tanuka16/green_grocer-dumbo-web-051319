@@ -3,12 +3,13 @@
 def consolidate_cart(cart)
   # code here
   new_hash = {}
-  cart.each do |item|
-    item.each do |name, attributes|
+  cart.each do |items|
+    items.each do |name, attributes|
       if new_hash[name]
         new_hash[name][count] += 1
       else
         new_hash[name] = n
+
 
     end
 
