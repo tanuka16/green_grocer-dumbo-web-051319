@@ -20,7 +20,13 @@ end
 def apply_coupons(cart, coupons)
   # code here
   new_hash ={}
-  hash[:item_name] = "coupon"
+  cart.each do |item, attributes|
+    coupons.each do |coupon|
+
+    end
+
+  end
+  hash[:item_name] = {"coupon"}
 end
 
 def apply_clearance(cart)
