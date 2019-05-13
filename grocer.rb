@@ -3,7 +3,9 @@
 def consolidate_cart(cart)
   # code here
   new_hash = {}
-  
+  cart.each do ||
+
+  end
 
 end
 
