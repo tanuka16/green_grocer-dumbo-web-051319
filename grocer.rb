@@ -1,7 +1,9 @@
+#The cart starts as an array of individual items. Translate it into a hash that includes the
+#counts for each item with the consolidate_cart method.
 def consolidate_cart(cart)
   # code here
   new_hash = {}
-  
+
 end
 
 def apply_coupons(cart, coupons)
