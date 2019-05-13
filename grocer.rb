@@ -7,6 +7,8 @@ def consolidate_cart(cart)
     item.each do |name, attributes|
       if new_hash[name]
         new_hash[name][count] += 1
+      else
+        new_hash[name] = n
 
     end
 
